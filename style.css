@@ -1,0 +1,170 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.line{
+    color: white;
+    background-color: #222222;
+    height:40px;
+    line-height: 40px;
+    margin: 0;
+    font-size: 12px;
+}
+
+.reklama{
+    margin-left: 300px;
+    margin-right: 30px;
+}
+
+.button{
+    display: inline-block;
+    height: 36px;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: 300ms;
+}
+
+.button:hover{
+    background-color: whitesmoke;
+    color: black;
+    border-bottom: 4px solid rgb(207, 5, 5);
+}
+.buttonleft{
+    margin-left: 200px;
+}
+
+.main{
+    border: 2px solid gray;
+}
+
+.footer{
+    border: 2px solid gray;
+}
+
+.conmenu{
+    height: 50px;  
+    background-color: #222222;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.menu{
+    display: inline-block;
+    width: 10%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: whitesmoke;
+    margin: auto;
+    transition: 300ms;
+}
+
+.menu:hover{
+    color: #222222;
+    background-color: whitesmoke;
+}
+
+.menu:visited{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.menu:active{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.lol{
+    /*margin: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;*/
+    background-image: url(img/test.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 233.28px;
+    height: 55.05px;
+    margin: auto;
+}
+
+footer{
+    background-color: black;
+    vertical-align: botton;
+    margin:0;
+    padding: 10px;
+    color: whitesmoke;
+    list-style: none;
+}
+
+.shop{
+    margin-left: 355px;
+    margin-right: 355px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.2);
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+}
+
+.trade{
+    border: 1px solid rgb(218, 217, 217);
+    width: 273px;
+    height: 370px;
+    margin: 5px 5px 5px 5px;
+    display: inline-block;
+    transition: 300ms;
+}
+
+.trade:hover{
+    position: relative;
+    box-shadow: 0 10px 10px rgba(0,0,0,.2);
+    border-radius: 3px;
+    border-color: whitesmoke;
+}
+
+.katalog{
+    margin-left: 355px;
+    margin-right: 355px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.punkt{
+    vertical-align: top;
+    text-align: left;
+    list-style: none;
+    display: inline-block;
+    line-height: 2;
+    font-size: 12px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.fsize{
+    font-size: 22px;
+}
+
+.feffect{
+    display: block;
+
+}
+.feffect:hover{
+    border-bottom: 1px solid whitesmoke;
+    width: fit-content;
+}
+
+.promote{
+    text-align: center;
+}
+
+.name{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+}
